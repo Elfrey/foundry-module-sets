@@ -35,7 +35,7 @@
 		}
 	],
   "url": "https://github.com/Elfrey/foundry-module-sets/",
-  "manifest": "https://github.com/Elfrey/foundry-module-sets/blob/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/Elfrey/foundry-module-sets/main/module.json",
   "download": "https://github.com/Elfrey/foundry-module-sets/archive/refs/tags/release.zip",
   "authors": [
     {
