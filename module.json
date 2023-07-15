@@ -25,6 +25,7 @@
     "styles/styles.css"
   ],
   "scripts": [
+    "sets/communityPresets.js"
   ],
 	"languages": [
 		{
