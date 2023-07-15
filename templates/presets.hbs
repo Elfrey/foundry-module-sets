@@ -1,0 +1,15 @@
+<div class="dialog-content">
+	<ul id="{{DIALOG.ID}}-presets-list" class="fms-presets-list">
+		{{#each presets}}
+		<li data-preset="{{@key}}">
+			<label for="preset-{{@key}}">{{name}}</label>
+			<button data-action="fms-info" data-tooltip="{{localize 'foundry-module-sets.modules-list'}}">
+				<i class="fa-solid fa-circle-info"></i>
+			</button>
+			<button data-action="fms-activate" data-tooltip="{{localize 'module-credits.dialog.presets.tooltips.activate'}}">
+				<i class="fa-solid fa-circle-play"></i>
+			</button>
+		</li>
+		{{/each}}
+	</ul>
+</div>

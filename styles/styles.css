@@ -1,0 +1,39 @@
+.fms-presets-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fms-presets-list li {
+    border-bottom: 1px solid var(--color-border-light-primary);
+    display: flex;
+    padding: 0.25rem 0px;
+}
+
+.fms-presets-list label {
+    align-self: center;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fms-presets-list button {
+    border-radius: 0px;
+    border-right-width: 0px;
+    flex: 0 0 30px;
+    margin: 0px;
+    text-align: center;
+}
+.fms-presets-list button:first-of-type {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.fms-presets-list button:last-of-type {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#module-management footer button[name="foundry-module-sets-pick-preset"] {
+    flex: 0;
+}

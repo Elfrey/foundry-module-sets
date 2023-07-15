@@ -1,0 +1,12 @@
+{
+	"foundry-module-sets": {
+		"title": "Готовые наборы модулей",
+		"pick-preset": "Выбрать набор",
+		"dialog-presets-title": "Выбор набора модулей",
+		"select": "Выбрать",
+		"close-dialog": "Закрыть",
+		"modules-list": "Посмотреть список модулей",
+		"modules-in-preset": "Список модулей в наборе <strong>{name}</strong>",
+		"activate-modules-list": "Список модулей в наборе <strong>{name}</strong>"
+	}
+}

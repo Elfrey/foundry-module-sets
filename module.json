@@ -1,0 +1,43 @@
+{
+  "id": "foundry-module-sets",
+  "title": "Foundry-module-sets",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [],
+    "requires": [],
+    "recommends": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "reason": "Provides a compatibility layer for checking if other Modules are overriding similar functionality.",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scritps/scripts.js"
+  ],
+  "styles": [
+    "styles/styles.css"
+  ],
+  "scripts": [
+  ],
+	"languages": [
+		{
+			"lang": "ru",
+			"name": "Russian",
+			"path": "lang/ru.json"
+		}
+	],
+  "authors": [
+    {
+      "name": "Elfrey",
+      "discord": "elfrey",
+      "flags": {}
+    }
+  ]
+}
